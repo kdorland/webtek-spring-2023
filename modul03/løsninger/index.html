@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flot grafik</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+<svg id="grafik" width="500" height="500"></svg>
+
+<script>
+/*
+  for (let j = 0; j < 10; j++) {
+    for (let i = 0; i < 10; i++) {
+      drawCircle(50 * i + 25, 50 * j + 25, 25, "green");
+    }
+  }
+*/
+
+for (let j = 0; j < 10; j++) {
+  for (let i = j; i < 10; i++) {
+    drawCircle(50 * i + 25, 50 * j + 25, 25, "green");
+  }
+}
+</script>
+</body>
+</html>
